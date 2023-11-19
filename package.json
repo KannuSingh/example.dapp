@@ -2,6 +2,7 @@
   "name": "example.dapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -9,7 +10,26 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@semaphore-protocol/identity": "^3.11.1",
+    "ethers": "^6.8.1",
+    "framer-motion": "^10.16.4",
+    "pino": "^8.16.1",
+    "react-icons": "^4.12.0",
+    "snarkjs": "^0.7.0",
+    "usehooks-ts": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "typescript": "^4",
+    "@babel/plugin-proposal-private-property-in-object":"^7.21.11"
   },
   "scripts": {
     "start": "react-scripts start",
